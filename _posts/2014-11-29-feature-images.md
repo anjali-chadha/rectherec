@@ -23,6 +23,18 @@ problems:
 The main idea is to use rating information accumulated in one domain (source domain) to improve the quality of recommendations
 in another domain (target domain).
 
+### Dataset
+For the purpose of this project, we used two datasets:
+* MovieLens-100k 
+* Yelp Challenge Dataset
+
+#### MovieLens-100k
+First, we performed some data exploration on the movie lens dataset. Here are the plots:
+![Motivation Photo]({{ site.baseurl }}/assets/img/movielens1.png)
+![Motivation Photo]({{ site.baseurl }}/assets/img/movielens2.png)
+#### Yelp
+![Motivation Photo]({{ site.baseurl }}/assets/img/yelp1.png)
+![Motivation Photo]({{ site.baseurl }}/assets/img/yelp2.png)
 ### Related Work
 
 ### Proposed Solution
@@ -36,6 +48,6 @@ in another domain (target domain).
 
 
 ### Github Repository
-### Dataset
+
 
 ### YouTube video
