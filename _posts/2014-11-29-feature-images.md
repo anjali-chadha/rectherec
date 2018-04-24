@@ -37,23 +37,19 @@ First, we performed some data exploration on the movie lens dataset. Here are th
 ![Motivation Photo]({{ site.baseurl }}/assets/img/yelp2.png)
 
 ### Related Work
-
-* Cross Domain Collaborative Filtering:-
-<br>Collaborative Filtering boils down to analyzing the user-item matrix. It can be easily extended with other auxiliary domains under the pretext of common users or common items. (1,2,3)
+Literature Survey of cross domain recommender systems:
+1. Cross Domain Collaborative Filtering:-
+<br>Collaborative Filtering boils down to analyzing the user-item matrix. It can be easily extended with other auxiliary domains under the pretext of common users or common items. 1,2,3
 	
+2. Content Based Cross Domain Recommendations:-
+<br>Content based CDR models users and items as feature vectors and recommends based on similarity between the two. If users/items are common among different domains the feature vectors can simply be concatenated to incorporate more information. 4
 
-* Content Based Cross Domain Recommendations:-
-<br>Content based CDR models users and items as feature vectors and recommends based on similarity between the two. If users/items are common among different domains the feature vectors can simply be concatenated to incorporate more information. (4)
-
-
-
-* Neural Network based CDRs:-
-
+3. Neural Network based CDRs:-
+<br> Further split into:
     * Multi-View Deep Neural Network -
-<br>Content based techniques calculates features to represent users and items. Neural networks are powerful feature extractors and can be effectively used in a multi/cross domain setting.(5,6)
-
+<br>Content based techniques calculates features to represent users and items. Neural networks are powerful feature extractors and can be effectively used in a multi/cross domain setting. 5,6
     * CCCFNet (Content Boosted Collaborative Filtering)
-<br>Content-based modelling of MV-DNN is used to augement the Collaborative Filtering matrix. The idea is to the correlate the latent-factor matrix of the CF part with the content-modelling of MV-DNN. (7)
+<br>Content-based modelling of MV-DNN is used to augement the Collaborative Filtering matrix. The idea is to the correlate the latent-factor matrix of the CF part with the content-modelling of MV-DNN. 7
 
 In all the above explained methods either there is single or mutiple cross domains. However, there is very little analysis on which domains can help the prediction in the target domain the most. A gap that we seek to fill. 
 
