@@ -16,8 +16,8 @@ In general, recommendation systems rely on user modeling approaches to approxima
 users' purchase history, item ratings etc. Collaborative Filtering and Content Based Recommendation are the standard 
 techniques of recommendation used in the industry. However, standard recommendation systems suffer from many 
 problems:
-    * Cold Start Problem - when a new user starts using the system
-    * First Rater Problem - when a new item is introduced
+* Cold Start Problem - when a new user starts using the system
+* First Rater Problem - when a new item is introduced
 
 **Cross Domain Recommender Systems** are one of the newer techniques used to alleviate cold-start problem.
 The main idea is to use rating information accumulated in one domain (source domain) to improve the quality of recommendations
@@ -30,7 +30,7 @@ in another domain (target domain).
 ## Results
 
 
-* Discussion
+### Discussion
 
 
 
