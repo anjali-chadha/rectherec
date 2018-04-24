@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recommending the Recommenders
-feature-img: "assets/img/rec.jpg"
+feature-img: "assets/img/rec1.jpg"
 ---
 
 
