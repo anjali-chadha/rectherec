@@ -4,16 +4,16 @@ title: Feature images
 feature-img: "assets/img/sample_feature_img.png"
 ---
 
-# Introduction
+## Introduction
 
-# Related Work
+## Related Work
 
-# Proposed Solution
+## Proposed Solution
 
-# Results
+## Results
 
 
-# Discussion
+## Discussion
 
 
 
